@@ -1,104 +1,97 @@
-.navbar{
-    background-color: rgb(145, 82, 0);
+header .navbar {
+  background-color: rgb(128, 71, 30);
 }
-.navbar-brand, .nav-item a {
-    color: aliceblue !important;
-    text-shadow: 0 0 5px rgb(89, 89, 89) !important;
-}
-
-nav, .nosotros, .ubicacion{
-    border-bottom:10px solid white;
+header a {
+  color: aliceblue;
+  text-shadow: 0 0 5px rgb(89, 89, 89) !important;
 }
 
-main{
-    background-color: antiquewhite;
-}
-.pag{
-    height: 70vh;
-}
-.nosotros, .ubicacion, .productos{
-    text-align: center;
-
-}
-.der{
-    height: 600px;
-    background-image: url(https://scontent.fcuu2-1.fna.fbcdn.net/v/t39.30808-6/305849042_564163908835685_1105610505601748898_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=nOYIx0S0E7AAX8UEOVQ&_nc_ht=scontent.fcuu2-1.fna&oh=00_AfBhFLz8DsdS0Vf3JRksD_MUfZ3j1TQCQPJ9slk9mfeavg&oe=635E6582);
-    background-size: cover;
-    background-position: center;
-}
-.izq h1{
-    text-align: center;
-    margin-top: 50px;
-}
-.izq p{
-    text-align: justify;
-    font-size: 20px;
-    padding: 60px;
-    margin: 0px;
-}
-.izq button{    
-    background-color: rgb(145, 82, 0) !important;
-    text-shadow: 0 0 5px black !important;
-    border-bottom: 50px;
-}
-.mapa{
-    height: 600px;
-    padding: 0;
-    margin: 0;
+nav, .nostros, .ubicacion {
+  border-bottom: 10px solid white;
 }
 
-footer{
-    height: auto;
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    background-color:rgb(145, 82, 0) ;
-    padding: 20px;
-    color: aliceblue;
-    text-shadow: 0 0 5px rgb(89, 89, 89);
+main {
+  background-color: rgb(255, 238, 203);
 }
-footer i{
-    letter-spacing: 10px;
-    font-size: 50px;
-    color: aliceblue;
+main .nosotros, main .ubicacion, main .productos {
+  text-align: center;
 }
-
-footer i:hover{
-    color: rgb(135, 135, 135);
+main .nosotros .mapa, main .ubicacion .mapa, main .productos .mapa {
+  height: 600px;
+  padding: 0;
+  margin: 0;
 }
-
-.redes{
-    margin: 30px;
+main .nosotros .der, main .ubicacion .der, main .productos .der {
+  height: 600px;
+  background-image: url(./img/a.jpg);
+  background-size: cover;
+  background-position: center;
 }
-
-.derh{
-    height: 600px;
-    background-image: url(https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-9/95394451_858954594515826_8456893371506491392_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=6u6gbIUaMVIAX9YB3AS&_nc_ht=scontent.fcuu2-1.fna&oh=00_AfCb7TuKjH1uB7HIKFKOqXxe_b7_Z9B0ws2thPTWNeq4SA&oe=638111DD);
-    background-size: cover;
-    background-position: center;
+main .nosotros .izq h1, main .ubicacion .izq h1, main .productos .izq h1 {
+  text-align: center;
+  margin-top: 50px;
 }
-
-.izqh{
-    height: 600px;
-    background-image: url(https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-9/133439879_1034177170326900_3378637017841165386_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7_TLMUJ6pioAX_SKHCi&_nc_ht=scontent.fcuu2-1.fna&oh=00_AfBAnAjgKRsToJXOJXTjxidMvl9Yh6LA7oxX3gavXeZ7-w&oe=637E3686);
-    background-size: cover;
-    background-position: center;
+main .nosotros .izq p, main .ubicacion .izq p, main .productos .izq p {
+  text-align: justify;
+  font-size: 20px;
+  padding: 60px;
+  margin: 0px;
 }
-.jumbotron{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-9/66438091_650153245395963_1789851127240458240_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=1tpEHjmUhvQAX89Ligm&_nc_ht=scontent.fcuu2-1.fna&oh=00_AfAyXlJhg_xW2hEYcBJaFFWvcTZgQxB28uXzxBX-V3r4Qw&oe=637F6859); 
-    background-position: center;
-    background-size: cover;
-}
-.container{
-    height: 300px;
-    color: white;
-    text-shadow: 0 0 10px rgb(145, 82, 0);
-    text-align: center;
+main .nosotros .izq button, main .ubicacion .izq button, main .productos .izq button {
+  background-color: rgb(145, 82, 0) !important;
+  text-shadow: 0 0 5px black !important;
+  border-bottom: 50px;
 }
 
-form{
-
-    padding: 80px;
-    background-color: antiquewhite;
+footer {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(145, 82, 0);
+  padding: 20px;
+  color: aliceblue;
+  text-shadow: 0 0 5px rgb(89, 89, 89);
+}
+footer .redes {
+  margin: 30px;
+}
+footer i {
+  letter-spacing: 10px;
+  font-size: 50px;
+  color: aliceblue;
+}
+footer i i:hover {
+  color: rgb(135, 135, 135);
 }
 
+.derh {
+  height: 600px;
+  background-image: url(https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-9/95394451_858954594515826_8456893371506491392_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=6u6gbIUaMVIAX9YB3AS&_nc_ht=scontent.fcuu2-1.fna&oh=00_AfCb7TuKjH1uB7HIKFKOqXxe_b7_Z9B0ws2thPTWNeq4SA&oe=638111DD);
+  background-size: cover;
+  background-position: center;
+}
+
+.izqh {
+  height: 600px;
+  background-image: url(https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-9/133439879_1034177170326900_3378637017841165386_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7_TLMUJ6pioAX_SKHCi&_nc_ht=scontent.fcuu2-1.fna&oh=00_AfBAnAjgKRsToJXOJXTjxidMvl9Yh6LA7oxX3gavXeZ7-w&oe=637E3686);
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://scontent.fcuu2-1.fna.fbcdn.net/v/t1.6435-9/66438091_650153245395963_1789851127240458240_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=1tpEHjmUhvQAX89Ligm&_nc_ht=scontent.fcuu2-1.fna&oh=00_AfAyXlJhg_xW2hEYcBJaFFWvcTZgQxB28uXzxBX-V3r4Qw&oe=637F6859);
+  background-position: center;
+  background-size: cover;
+}
+.jumbotron .container {
+  height: 300px;
+  color: white;
+  text-shadow: 0 0 10px rgb(145, 82, 0);
+  text-align: center;
+}
+
+form {
+  padding: 80px;
+  background-color: antiquewhite;
+}/*# sourceMappingURL=style.css.map */
